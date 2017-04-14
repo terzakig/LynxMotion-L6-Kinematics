@@ -1,5 +1,6 @@
 # A GUI for Forward and Inverse Kinematics with the LynxMotion L6 Robotic Arm
 
+## About the project
 This is an old project for a robotics MS course and it involves a graphical interface designed to control the **Lynxmotion L6 Robotics Arm**. Info on the robot can be found all over the net; a good place to start is [here](http://www.lynxmotion.com/c-124-al5a.aspx).
 
 The code is written in C# and it is a single window application that offers the following:
@@ -10,4 +11,7 @@ The code is written in C# and it is a single window application that offers the 
 4. Inverse Kinematics and Trajectory Planning: The interface can solve for the link angles of the robot for a given position in 3D Euclidean space (in cms) and plan a trajectory to the destination. As a demo, the robot can draw a sinewave on a plane using the inverse kinematics solver to chart its course from one sample to the next in the sinewave plot. The solver will mark a destination as ``unreachable'' if the system of equations is infeasible.
 
 
-This is a C#-only application, originally written in Visual Studio, but can be directly ported to Mono. I regret not adding many comments, but it was written in very limited trime. Still the code is straightforward, although can be optimized in several ways.
+This is a C#-only application, originally written in Visual Studio, but can be directly ported to Mono in Windows or Ubuntu. I regret not adding many comments, but it was written under a very limited time. Still, the code is straightforward and readable, although can be optimized in several ways.
+
+## More Details
+I included the quick [report](https://github.com/terzakig/LynxMotion-L6-Kinematics/blob/master/Report.pdf) that I originally submitted with the project in order to provide more details on the code.
