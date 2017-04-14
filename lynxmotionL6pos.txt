@@ -1,0 +1,35 @@
+1) Base Link (channel 1)
+
+
+2) Link 2 (th1, channel 2)
+
+  1500 is 90 degrees (angle)
+  300 is 0 degrees (angle)
+
+3) Link 3 (th2, channel 3)
+
+  1500 is 90 degrees from the axis of link1-2
+  300 is 0 degrees from the axis of link 1-2 (don't go below than 1000!)
+
+4) Link 4 (th3, channel 4)
+
+
+  1500 is 0 degrees from the axis of vector3-4
+  300 is 90 degrees (downwards) from the axis of vector3-4
+  
+5) Link 5 (rotates the grip, channel 5)
+
+   1500 is parallel to the ground ( xz plane)
+   300 is perpendicular to the ground (xz plane)
+
+6) Grip (channel 6)
+
+   1500 is closed (almost- 1900 is fully closed) grip
+   300 is open grip
+  
+
+ 
+
+Typical Command: # 5 P 1500 T 10000 Baud Rate: 115200
+
+   
